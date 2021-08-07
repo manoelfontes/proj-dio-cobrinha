@@ -9,7 +9,22 @@
     <title>Snake Game</title>
 </head>
 <body>
-        <h1> SNAKE GAME! </h1>
+    
+    <div class="canvas">
+        <h1> Jogo da Cobrinha! </h1>
+        <div class="painel">
+            <div id="frutas"></div>
+            <div id="venenos"></div>
+         </div>  
+  
        <canvas id="snake" width="512" height="512"></canvas> 
+    </div> 
+  
+       <div style="display:none;">
+        <img id="img-fruta"src="fruta.jpg" width="32" height="32">
+      </div>
+      <div style="display:none;">
+        <img id="img-veneno" src="veneno.png" width="32" height="32">
+      </div>
 </body>
 </html>
